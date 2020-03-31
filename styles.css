@@ -3,7 +3,7 @@
   padding: 0;
 }
 .wrapper {
-  background: yellow;
+  //background: yellow;
   margin: auto;
   width: 1100px;
   height: 1500px;
@@ -53,3 +53,27 @@
 }
 
 /*************** Partnerts ************/
+
+.partners-cont {
+  background: white;
+}
+.partners-logo-cont {
+  list-style-type: none;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-right: 50px;
+}
+.partners-logo-cont li {
+  margin-left: 10px;
+}
+.partners-logo1 {
+  padding: 18px 0;
+  font-size: 15px;
+}
+.partners-logo2 img,
+.partners-logo3 img {
+  height: 50px;
+}
