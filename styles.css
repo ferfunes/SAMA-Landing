@@ -3,10 +3,9 @@
   padding: 0;
 }
 .wrapper {
-  background: yellow;
   margin: auto;
   width: 1100px;
-  height: 12500px;
+  height: auto;
   font-family: poppins;
 }
 
@@ -52,7 +51,7 @@
   border-radius: 0%;
   border: none;
   background: #fec536;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 /*************** Partnerts ************/
@@ -94,7 +93,7 @@
   text-align: right;
 }
 .descript-cont1 h2 {
-  padding: 45px 55px 0px 0px;
+  padding: 45px 17px 0px 0px;
 }
 .descript-cont2 {
   height: 100%;
@@ -171,4 +170,30 @@
 }
 .product4-img {
   width: 239px;
+}
+
+/*************** Testimonials Cont ************/
+.testimonial-cont {
+  display: flex;
+  height: 130px;
+  margin-top: 150px;
+  margin-bottom: 60px;
+}
+.testimonial-cont1 {
+  height: 100%;
+  width: 40%;
+  border-right: solid black 3px;
+  text-align: right;
+}
+.testimonial-cont1 h2 {
+  padding: 35px 25px 0px 120px;
+  font-size: 35px;
+}
+.testimonial-cont2 {
+  height: 100%;
+  width: 80%;
+}
+.testimonial-cont2 p {
+  font-size: 13px;
+  padding: 10px 50px 0px 20px;
 }
