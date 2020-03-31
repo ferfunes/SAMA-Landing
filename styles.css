@@ -3,10 +3,10 @@
   padding: 0;
 }
 .wrapper {
-  //background: yellow;
+  background: yellow;
   margin: auto;
   width: 1100px;
-  height: 1500px;
+  height: 12500px;
   font-family: poppins;
 }
 
@@ -137,4 +137,38 @@
   padding: 40px 50px 0px 0px;
   font-size: 35px;
   line-height: 45px;
+}
+
+/*************** Recomended Cont ************/
+
+.recomended-img {
+  height: 370px;
+  margin-top: 40px;
+}
+
+/*************** Shop Cont ************/
+.product-cont {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  padding-right: 30px;
+}
+.shop-cont {
+  text-align: center;
+  margin-top: 70px;
+}
+.product {
+  text-align: center;
+  margin-left: 30px;
+  width: 200px;
+}
+.product4 {
+  text-align: center;
+  margin-left: 30px;
+}
+.product-img {
+  width: 200px;
+}
+.product4-img {
+  width: 239px;
 }
